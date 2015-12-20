@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27DFED8E1C2684BE0006B46C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFED8D1C2684BE0006B46C /* AppDelegate.swift */; };
+		27DFED901C2684BE0006B46C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFED8F1C2684BE0006B46C /* ViewController.swift */; };
+		27DFED921C2684BE0006B46C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DFED911C2684BE0006B46C /* Images.xcassets */; };
+		27DFED951C2684BE0006B46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DFED931C2684BE0006B46C /* Main.storyboard */; };
+		27DFEDA11C2684BE0006B46C /* DaylightViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFEDA01C2684BE0006B46C /* DaylightViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27DFED9B1C2684BE0006B46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DFED801C2684BE0006B46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DFED871C2684BE0006B46C;
+			remoteInfo = DaylightView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27DFED881C2684BE0006B46C /* DaylightView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaylightView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DFED8C1C2684BE0006B46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DFED8D1C2684BE0006B46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27DFED8F1C2684BE0006B46C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27DFED911C2684BE0006B46C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27DFED941C2684BE0006B46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27DFED9A1C2684BE0006B46C /* DaylightViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaylightViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DFED9F1C2684BE0006B46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DFEDA01C2684BE0006B46C /* DaylightViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaylightViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27DFED851C2684BE0006B46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DFED971C2684BE0006B46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DFED7F1C2684BE0006B46C = {
+			isa = PBXGroup;
+			children = (
+				27DFED8A1C2684BE0006B46C /* DaylightView */,
+				27DFED9D1C2684BE0006B46C /* DaylightViewTests */,
+				27DFED891C2684BE0006B46C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27DFED891C2684BE0006B46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27DFED881C2684BE0006B46C /* DaylightView.app */,
+				27DFED9A1C2684BE0006B46C /* DaylightViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27DFED8A1C2684BE0006B46C /* DaylightView */ = {
+			isa = PBXGroup;
+			children = (
+				27DFED8D1C2684BE0006B46C /* AppDelegate.swift */,
+				27DFED8F1C2684BE0006B46C /* ViewController.swift */,
+				27DFED911C2684BE0006B46C /* Images.xcassets */,
+				27DFED931C2684BE0006B46C /* Main.storyboard */,
+				27DFED8B1C2684BE0006B46C /* Supporting Files */,
+			);
+			path = DaylightView;
+			sourceTree = "<group>";
+		};
+		27DFED8B1C2684BE0006B46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27DFED8C1C2684BE0006B46C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27DFED9D1C2684BE0006B46C /* DaylightViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				27DFEDA01C2684BE0006B46C /* DaylightViewTests.swift */,
+				27DFED9E1C2684BE0006B46C /* Supporting Files */,
+			);
+			path = DaylightViewTests;
+			sourceTree = "<group>";
+		};
+		27DFED9E1C2684BE0006B46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27DFED9F1C2684BE0006B46C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27DFED871C2684BE0006B46C /* DaylightView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DFEDA41C2684BF0006B46C /* Build configuration list for PBXNativeTarget "DaylightView" */;
+			buildPhases = (
+				27DFED841C2684BE0006B46C /* Sources */,
+				27DFED851C2684BE0006B46C /* Frameworks */,
+				27DFED861C2684BE0006B46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaylightView;
+			productName = DaylightView;
+			productReference = 27DFED881C2684BE0006B46C /* DaylightView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27DFED991C2684BE0006B46C /* DaylightViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DFEDA71C2684BF0006B46C /* Build configuration list for PBXNativeTarget "DaylightViewTests" */;
+			buildPhases = (
+				27DFED961C2684BE0006B46C /* Sources */,
+				27DFED971C2684BE0006B46C /* Frameworks */,
+				27DFED981C2684BE0006B46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27DFED9C1C2684BE0006B46C /* PBXTargetDependency */,
+			);
+			name = DaylightViewTests;
+			productName = DaylightViewTests;
+			productReference = 27DFED9A1C2684BE0006B46C /* DaylightViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27DFED801C2684BE0006B46C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kyle O'Shaughnessy";
+				TargetAttributes = {
+					27DFED871C2684BE0006B46C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					27DFED991C2684BE0006B46C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 27DFED871C2684BE0006B46C;
+					};
+				};
+			};
+			buildConfigurationList = 27DFED831C2684BE0006B46C /* Build configuration list for PBXProject "DaylightView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27DFED7F1C2684BE0006B46C;
+			productRefGroup = 27DFED891C2684BE0006B46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27DFED871C2684BE0006B46C /* DaylightView */,
+				27DFED991C2684BE0006B46C /* DaylightViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27DFED861C2684BE0006B46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFED921C2684BE0006B46C /* Images.xcassets in Resources */,
+				27DFED951C2684BE0006B46C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DFED981C2684BE0006B46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27DFED841C2684BE0006B46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFED901C2684BE0006B46C /* ViewController.swift in Sources */,
+				27DFED8E1C2684BE0006B46C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DFED961C2684BE0006B46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFEDA11C2684BE0006B46C /* DaylightViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27DFED9C1C2684BE0006B46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27DFED871C2684BE0006B46C /* DaylightView */;
+			targetProxy = 27DFED9B1C2684BE0006B46C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27DFED931C2684BE0006B46C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DFED941C2684BE0006B46C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27DFEDA21C2684BE0006B46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27DFEDA31C2684BE0006B46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27DFEDA51C2684BF0006B46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DaylightView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27DFEDA61C2684BF0006B46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DaylightView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27DFEDA81C2684BF0006B46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DaylightViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaylightView.app/Contents/MacOS/DaylightView";
+			};
+			name = Debug;
+		};
+		27DFEDA91C2684BF0006B46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DaylightViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaylightView.app/Contents/MacOS/DaylightView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27DFED831C2684BE0006B46C /* Build configuration list for PBXProject "DaylightView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DFEDA21C2684BE0006B46C /* Debug */,
+				27DFEDA31C2684BE0006B46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DFEDA41C2684BF0006B46C /* Build configuration list for PBXNativeTarget "DaylightView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DFEDA51C2684BF0006B46C /* Debug */,
+				27DFEDA61C2684BF0006B46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27DFEDA71C2684BF0006B46C /* Build configuration list for PBXNativeTarget "DaylightViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DFEDA81C2684BF0006B46C /* Debug */,
+				27DFEDA91C2684BF0006B46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27DFED801C2684BE0006B46C /* Project object */;
+}
