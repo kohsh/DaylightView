@@ -670,32 +670,21 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="DaylightView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="1080"/>
+                        <rect key="frame" x="0.0" y="0.0" width="341" height="299"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H51-Il-3Ka">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                <gestureRecognizers>
-                                    <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="ukf-A7-42C"/>
-                                    <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="sf2-OO-uhd"/>
-                                </gestureRecognizers>
+                                <rect key="frame" x="0.0" y="0.0" width="341" height="299"/>
                                 <animations/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="defaultPhoto" id="oRO-Hr-Ri5"/>
                             </imageView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="H51-Il-3Ka" secondAttribute="bottom" id="D7s-Cw-xKH"/>
-                            <constraint firstAttribute="trailing" secondItem="H51-Il-3Ka" secondAttribute="trailing" id="Lbz-ta-qYR"/>
-                            <constraint firstItem="H51-Il-3Ka" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="PnZ-wQ-GVz"/>
-                            <constraint firstItem="H51-Il-3Ka" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Sgv-sG-nby"/>
+                            <constraint firstAttribute="bottom" secondItem="H51-Il-3Ka" secondAttribute="bottom" id="KHc-NJ-7E8"/>
+                            <constraint firstItem="H51-Il-3Ka" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Uei-AW-e1f"/>
+                            <constraint firstItem="H51-Il-3Ka" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="dqa-Hp-oSy"/>
+                            <constraint firstAttribute="trailing" secondItem="H51-Il-3Ka" secondAttribute="trailing" id="tsp-qi-buU"/>
                         </constraints>
-                        <gestureRecognizers>
-                            <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="LaE-U0-ZwR">
-                                <connections>
-                                    <action selector="selectImageFromPhotoLibrary:" target="XfG-lQ-9wD" id="Gdp-Yn-hur"/>
-                                </connections>
-                            </clickGestureRecognizer>
-                        </gestureRecognizers>
                         <animations/>
                     </view>
                     <connections>
@@ -704,7 +693,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75.5" y="726.5"/>
         </scene>
     </scenes>
     <resources>
